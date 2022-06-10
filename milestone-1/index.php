@@ -20,7 +20,9 @@ require __DIR__ . "/../database.php";
         </div>
     </header>
     <main>
-        
+        <div class="main_container">
+            
+        </div>
     </main>
 </body>
 
