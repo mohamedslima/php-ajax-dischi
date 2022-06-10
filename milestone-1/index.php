@@ -21,7 +21,21 @@ require __DIR__ . "/../database.php";
     </header>
     <main>
         <div class="main_container">
-            
+            <div class="album_container">
+                <?php foreach ($database as $album) { ?>
+                    <div>
+                        <div class="img_container">
+                            <img src="<?php echo $album["poster"]; ?>" alt="">
+                        </div>
+                        <div class="text_container">
+                            <h2><?php echo $album["title"]; ?></h2>
+                            <p><?php echo $album["author"]; ?></p>
+                            <p><?php echo $album["year"]; ?></p>
+                            <p><?php echo $album["genre"]; ?></p>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
         </div>
     </main>
 </body>
