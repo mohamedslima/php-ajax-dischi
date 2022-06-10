@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.header__container {
+    background-color: #2f3a46;
+    height: 70px;
+  }
+
+  div.header__logo_icon {
+    color: white;
+  }
